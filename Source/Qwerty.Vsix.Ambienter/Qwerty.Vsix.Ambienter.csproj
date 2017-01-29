@@ -58,6 +58,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CommandTable.vsct</DependentUpon>
     </Compile>
+    <Compile Include="Dialogs\AmbienterOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MessageBoxes.cs" />
+    <Compile Include="Helpers\AmbienterConstants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source.extension.cs">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>

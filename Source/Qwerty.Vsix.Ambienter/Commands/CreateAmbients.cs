@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.Design;
-using System.Globalization;
 using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
+using Qwerty.Vsix.Ambienter.Dialogs;
+using Qwerty.Vsix.Ambienter.Helpers;
 
 namespace Qwerty.Vsix.Ambienter.Commands
 {
@@ -39,7 +39,7 @@ namespace Qwerty.Vsix.Ambienter.Commands
             if (commandService != null)
             {
                 var menuCommandId = new CommandID(PackageGuids.guidCreateAmbientsCmdSet, CommandId);
-                var menuItem = new MenuCommand(CreateAmbientsCommand, menuCommandId);
+                var menuItem = new MenuCommand(CreateAmbientsForProject, menuCommandId);
                 commandService.AddCommand(menuItem);
             }
         }
@@ -74,19 +74,16 @@ namespace Qwerty.Vsix.Ambienter.Commands
         /// </summary>
         /// <param name="sender">Event sender.</param>
         /// <param name="e">Event args.</param>
-        private void CreateAmbientsCommand(object sender, EventArgs e)
+        private void CreateAmbientsForProject(object sender, EventArgs e)
         {
-            string message = string.Format(CultureInfo.CurrentCulture, "Inside {0}.CreateAmbientsCommand()", this.GetType().FullName);
-            string title = "CreateAmbients";
+            var messageBoxes = new MessageBoxes(ServiceProvider);
 
-            // Show a message box to prove we were here
-            VsShellUtilities.ShowMessageBox(
-                this.ServiceProvider,
-                message,
-                title,
-                OLEMSGICON.OLEMSGICON_INFO,
-                OLEMSGBUTTON.OLEMSGBUTTON_OK,
-                OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+            if (!AmbienterPackage.Options.SupressWarning)
+            {
+                var userResponse = messageBoxes.ShowAcceptWarningMessage(AmbienterConstants.Warning);
+                if (userResponse != MessageBoxes.OkButton) return;
+            }
+
         }
     }
 }

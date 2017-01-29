@@ -2,6 +2,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.Shell;
 using Qwerty.Vsix.Ambienter.Commands;
+using Qwerty.Vsix.Ambienter.Dialogs;
 
 namespace Qwerty.Vsix.Ambienter
 {
@@ -27,6 +28,7 @@ namespace Qwerty.Vsix.Ambienter
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [Guid(PackageGuids.guidAmbienterPackageString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
+    [ProvideOptionPage(typeof(AmbienterOptions), Vsix.Name, "General", 101, 102, true, new[] { "pkgdef", "vsct" })]
     public sealed class AmbienterPackage : Package
     {
         /// <summary>
@@ -40,6 +42,10 @@ namespace Qwerty.Vsix.Ambienter
             // initialization is the Initialize method.
         }
 
+        #region Options
+        public static AmbienterOptions Options { get; private set; }
+        #endregion Options
+
         #region Package Members
 
         /// <summary>
@@ -48,6 +54,7 @@ namespace Qwerty.Vsix.Ambienter
         /// </summary>
         protected override void Initialize()
         {
+            Options = (AmbienterOptions)GetDialogPage(typeof(AmbienterOptions));
             CreateAmbients.Initialize(this);
             base.Initialize();
         }

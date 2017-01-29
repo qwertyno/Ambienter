@@ -56,7 +56,7 @@
         <Parent guid="guidCreateAmbientsCmdSet" id="AmbienterMenuGroup" />
         <Icon guid="guidImages" id="pngAmbienter16" />
         <Strings>
-          <ButtonText>Invoke CreateAmbients</ButtonText>
+          <ButtonText>Create Project Ambients</ButtonText>
         </Strings>
       </Button>
     </Buttons>
