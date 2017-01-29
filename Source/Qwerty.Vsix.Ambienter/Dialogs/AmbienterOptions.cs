@@ -12,6 +12,12 @@ namespace Qwerty.Vsix.Ambienter.Dialogs
         public bool SupressWarning { get; set; } = false;
 
         [Category("General")]
+        [DisplayName("Supress info message")]
+        [Description("Supresses the info message showing settings.")]
+        [DefaultValue(false)]
+        public bool SupressInfo { get; set; } = false;
+
+        [Category("General")]
         [DisplayName("Default TLD name")]
         [Description("Default Top Level Domain (TLD) name. Suggested value is .local")]
         [DefaultValue(".local")]

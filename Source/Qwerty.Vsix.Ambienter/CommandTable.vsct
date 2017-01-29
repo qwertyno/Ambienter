@@ -36,8 +36,11 @@
          group as the part of a menu contained between two lines. The parent of a group
          must be a menu. -->
     <Groups>
-      <Group guid="guidCreateAmbientsCmdSet" id="AmbienterMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      <Group guid="guidCreateAmbientsCmdSet" id="AmbienterMenuGroup" priority="0x0300">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE"/>
+      </Group>
+      <Group guid="guidCreateAmbientsCmdSet" id="AmbienterMenuGroup" priority="0x0500">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_WEBPROJECT"/>
       </Group>
     </Groups>
 
