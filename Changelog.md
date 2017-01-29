@@ -10,21 +10,17 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ## Changelog
 
-### Version 0.0.0
-
-**Not yet relased**
-
-## Roadmap
-
 ### Version 0.1.0
 
-**Planned for end of January 2017**
+**Released 2017-01-30**
 
 ### Features
 
 * Add IIS site for project
-* Update .hosts file
+* Update hosts file
 * Open in default browser
+
+## Roadmap
 
 ### Version 0.2.0
 
@@ -33,6 +29,8 @@ Visual Studio Extention for setting up ambient environment for a project.
 ### Features
 
 * Only show for web type projects
+* Check for existing site in IIS
+* Check for existing site in hosts
 
 ### Version 0.3.0
 

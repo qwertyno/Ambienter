@@ -6,17 +6,25 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 > **WARNING** !  
 > This extention is **Work In Progress** (WIP) and is provided "AS IS".  
-> **Use it at your own risk**!
 
-## Current version 0.0.0 (No current version)
+## Prerequisites
 
-First version _planned for end of january 2017_; see [changelog](/changelog.md).
+* Running Visual Studio in administrative mode
+* Have IIS installed
 
-## Functionality (see [roadmap](/changelog.md))
+## Current version 0.1.0
+
+First version released 2017-01-30 (see [changelog](/changelog.md)).  
+This version does the work, but is lacking in sofistication and error handling.
+
+## Functionality
 
 1. Add IIS site for project
-2. Update .hosts file
+2. Update hosts file
 3. Open in default browser
+
+## Planned functionality (see [roadmap](/changelog.md))
+
 4. Only show for web type projects
 5. Set path for existing IIS site (to this project)
 6. Determine startup project (from solution)
