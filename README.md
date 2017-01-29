@@ -15,7 +15,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 ## Current version 0.1.0
 
 First version released 2017-01-30 (see [changelog](/changelog.md)).  
-This version does the work, but is lacking in sofistication and error handling.
+This version does the work, but is lacking in sofistication and graceful error handling.
 
 ## Functionality
 

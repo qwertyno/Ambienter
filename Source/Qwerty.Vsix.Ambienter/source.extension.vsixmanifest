@@ -4,6 +4,7 @@
     <Identity Id="492371a3-b83c-450e-b48f-18f766cdb375" Version="0.1.0.0" Language="en-US" Publisher="Qwerty" />
     <DisplayName>Qwerty.Ambienter</DisplayName>
     <Description xml:space="preserve">Visual Studio Extention for setting up ambient environment for a project.</Description>
+    <Icon>Ambienter.ico</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
