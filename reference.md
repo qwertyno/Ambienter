@@ -22,17 +22,19 @@ and one in the context menu when right clicking on a WebSite
 If clicking on the Create Project Ambients, the following dialog will show with a warning:
 
 ![Warning Dialog](WarningDialog.png)
-(This dialog may be turned off in options, see  [below](#options))
+
+_(This dialog may be turned off in options, see  [below](#options))_
 
 When accepting this dialog by clicking OK, the following dialog will show with info on default settings:
 
 ![Default Options Dialog](DefaultOptionsDialog.png)
-(Options may be set in Visual Studio's **Tools | Options** menu, see [below](#options))
+
+_(Options may be set in Visual Studio's **Tools | Options** menu, see [below](#options))_
 
 
 If you accept by clicking OK, Ambienter will go ahead and (depending on the options):
 
-1. Creating a new site in IIS with the name of the project with the default TLD name (_.local_)
+1. Creating a new site in IIS with path to the project and with the name of the project with the default TLD name (_.local_)
 > if the project name is _test_, Ambienter will create a site with bindings to **test.local**.
 
 2. Update **hosts** file with th project
