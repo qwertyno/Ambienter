@@ -23,13 +23,13 @@ If clicking on the Create Project Ambients, the following dialog will show with 
 
 ![Warning Dialog](WarningDialog.png)
 
-_(This dialog may be turned off in options, see  [below](#options))_
+_(This dialog may be turned off in options, see  [below](#settings))_
 
 When accepting this dialog by clicking OK, the following dialog will show with info on default settings:
 
 ![Default Options Dialog](DefaultOptionsDialog.png)
 
-_(Options may be set in Visual Studio's **Tools | Options** menu, see [below](#options))_
+_(Options may be set in Visual Studio's **Tools | Options** menu, see [below](#settings))_
 
 
 If you accept by clicking OK, Ambienter will go ahead and (depending on the options):
@@ -43,11 +43,11 @@ If you accept by clicking OK, Ambienter will go ahead and (depending on the opti
 
 3. Open the newly created site in default browser
 
-![Browser](Browser.png)
+> ![Browser](Browser.png)
 
 
-<a name="options"></a>
-## Options
+<a name="settings"></a>
+## Settings
 
 Setting for Ambienter is available in the Visual Studio's **Tools | Options** menu:
 ![Options](Options.png)
