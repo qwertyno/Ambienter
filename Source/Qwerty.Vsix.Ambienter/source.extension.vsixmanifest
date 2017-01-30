@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="492371a3-b83c-450e-b48f-18f766cdb375" Version="0.1.0.1" Language="en-US" Publisher="Qwerty" />
-    <DisplayName>Qwerty.Ambienter</DisplayName>
+    <Identity Id="492371a3-b83c-450e-b48f-18f766cdb375" Version="0.1.0.2" Language="en-US" Publisher="Qwerty" />
+    <DisplayName>Ambienter</DisplayName>
     <Description xml:space="preserve">Visual Studio Extention for setting up ambient environment for a project.</Description>
     <Icon>Ambienter.ico</Icon>
   </Metadata>

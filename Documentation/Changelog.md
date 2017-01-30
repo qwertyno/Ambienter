@@ -12,13 +12,27 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.1.0
 
-**Released 2017-01-30**
-
 ### Features
 
 * Add IIS site for project
 * Update hosts file
 * Open in default browser
+
+#### Version 0.1.0.2
+**Released 2017-01-30**
+
+* Added larger icon for VS Marketplace
+* Renamed to Ambienter
+
+#### Version 0.1.0.1
+**Released 2017-01-29**
+
+* Added icon in vsix file
+
+#### Version 0.1.0.0
+**Released 2017-01-29**
+
+* Initial release
 
 ## Roadmap
 
