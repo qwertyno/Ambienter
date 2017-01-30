@@ -1,4 +1,4 @@
-﻿### Ambienter
+﻿# Ambienter
 
 Visual Studio Extention for setting up ambient environment for a project.
 
