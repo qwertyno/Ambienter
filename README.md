@@ -23,6 +23,10 @@ This version does the work, but is lacking in sofistication and graceful error h
 2. Update hosts file
 3. Open in default browser
 
+## Documentation
+
+A brief introduction is found [here](reference.md)
+
 ## Planned functionality (see [roadmap](changelog.md))
 
 4. Only show for web type projects
