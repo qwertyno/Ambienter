@@ -27,7 +27,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 #### Version 0.1.0.1
 **Released 2017-01-29**
 
-* Added icon in vix file
+* Added icon in vsix file
 
 #### Version 0.1.0.0
 **Released 2017-01-29**
