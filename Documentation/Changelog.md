@@ -53,6 +53,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 ### Features
 
 * Set path for existing IIS site (to this project)
+* Create Application Pool for site in IIS
 
 ### Version 0.4.0
 
