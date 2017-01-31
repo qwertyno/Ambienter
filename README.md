@@ -2,11 +2,6 @@
 
 Visual Studio Extention for setting up ambient environment for a project.
 
-### Work in Progress
-
-> **WARNING** !  
-> This extention is **Work In Progress** (WIP) and is provided "AS IS".  
-
 ## Prerequisites
 
 * Running Visual Studio in administrative mode
@@ -16,6 +11,8 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 First version released 2017-01-30 (see [changelog](Documentation/Changelog.md)).  
 This version does the work, but is lacking in sofistication and graceful error handling.
+
+> This extention is **Work In Progress** (WIP) and is provided "AS IS".  
 
 ## Functionality
 
