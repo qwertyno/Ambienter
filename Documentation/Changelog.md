@@ -38,7 +38,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.2.0
 
-**Planned for beginning of February 2017**
+**Planned for end of February 2017**
 
 ### Features
 
@@ -48,7 +48,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.3.0
 
-**Planned for mid February 2017**
+**Planned for mid March 2017**
 
 ### Features
 
@@ -57,7 +57,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.4.0
 
-**Planned for end of February 2017**
+**Planned for early April 2017**
 
 ### Features
 
