@@ -24,7 +24,7 @@ This version does the work, but is lacking in sofistication and graceful error h
 
 A brief introduction is found [here](Documentation/Reference.md)
 
-## Planned functionality (see [roadmap](Documentation/Changelog.md))
+## Planned functionality (see [roadmap](Documentation/Changelog.md#RoadMap))
 
 4. Only show for web type projects
 5. Set path for existing IIS site (to this project)
