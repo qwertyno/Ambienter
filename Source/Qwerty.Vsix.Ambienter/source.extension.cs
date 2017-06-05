@@ -11,7 +11,7 @@ namespace Qwerty.Vsix.Ambienter
         public const string Name = "Ambienter";
         public const string Description = @"Visual Studio Extention for setting up ambient environment for a project.";
         public const string Language = "en-US";
-        public const string Version = "0.1.0.2";
+        public const string Version = "0.1.0.4";
         public const string Author = "Qwerty";
         public const string Tags = "";
     }
