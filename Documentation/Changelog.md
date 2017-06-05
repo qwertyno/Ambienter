@@ -18,6 +18,12 @@ Visual Studio Extention for setting up ambient environment for a project.
 * Update hosts file
 * Open in default browser
 
+#### Version 0.1.0.4 (and 0.1.0.3)
+**Released 2017-06-05**
+
+* Targeting both Visual Studio 2017 and 2015
+* Downgraded prerequisite for .Net to v 4.5
+
 #### Version 0.1.0.2
 **Released 2017-01-30**
 
@@ -38,7 +44,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.2.0
 
-**Planned for end of February 2017**
+**Planned for end of June 2017**
 
 ### Features
 
@@ -48,7 +54,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.3.0
 
-**Planned for mid March 2017**
+**Planned for mid July 2017**
 
 ### Features
 
@@ -57,7 +63,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 
 ### Version 0.4.0
 
-**Planned for early April 2017**
+**Planned for early August 2017**
 
 ### Features
 
