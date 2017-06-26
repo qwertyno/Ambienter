@@ -10,7 +10,7 @@ Visual Studio Extention for setting up ambient environment for a project.
 ## Current version 0.1.0.4
 
 First version released 2017-06-05 (see [changelog](Documentation/Changelog.md)).  
-This version does the work, but is lacking in sofistication and graceful error handling.
+This version does the work, but is lacking in sophistication and graceful error handling.
 
 > This extention is **Work In Progress** (WIP) and is provided "AS IS".  
 
